@@ -1,0 +1,65 @@
+Cria banco de dados
+ERRO de conex�o PDO com MySQL acima da vers�o 5
+
+The server requested authentication method unknown to the client
+
+Corre��o:
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password
+BY 'password';
+
+Substitua 'password' pela sua senha root.
+
+*********************************************************************************************
+
+CREATE SCHEMA `phpbase` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ;
+
+
+
+
+CREATE TABLE `phpbase`.`users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(255) NULL,
+  `last_name` VARCHAR(255) NULL,
+  `genre` VARCHAR(10) NULL,
+  `created_at` TIMESTAMP(255) NULL,
+  `updates_at` TIMESTAMP(255) NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `phpbase`.`address` (
+  `addr_id` INT NOT NULL AUTO_INCREMENT,
+  `user_id` INT NOT NULL,
+  `street` VARCHAR(255) NULL,
+  `number` VARCHAR(45) NULL,
+  `city` VARCHAR(255) NULL,
+  PRIMARY KEY (`addr_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

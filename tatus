@@ -1,0 +1,30 @@
+[33mcommit 39c2a6994a6a79e1e8d2f6b940e02db0c9da8a09[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 12c6841 177cc70
+Author: Jefferson Vidal <vidalmoc@gmail.com>
+Date:   Fri Feb 7 12:27:14 2020 -0300
+
+    Alterado README.md e delete.php da pasta examples
+
+[33mcommit 12c684113d749b3cd3c4d5b7d453cfe6a0d9762e[m
+Author: Jefferson Vidal <vidalmoc@gmail.com>
+Date:   Sat Feb 1 21:46:47 2020 -0300
+
+    Criados arquivos create.php, delete.php, update.php
+
+[33mcommit 177cc70b2ec020c9a9e9f4a3ff29d2d7e98f0e4c[m
+Author: Jefferson Vidal <54278346+jeffersonvidal@users.noreply.github.com>
+Date:   Sat Feb 1 19:53:47 2020 -0300
+
+    Update README.md
+
+[33mcommit ff96de2e6dc1247c59d243832cece26b9c8c1aea[m
+Author: Jefferson Vidal <54278346+jeffersonvidal@users.noreply.github.com>
+Date:   Sat Feb 1 19:53:24 2020 -0300
+
+    Create README.md
+
+[33mcommit c6c2a1238fcc104b9d47b7a23b8419a9f6799b9a[m
+Author: Jefferson Vidal <vidalmoc@gmail.com>
+Date:   Tue Jan 28 07:57:07 2020 -0300
+
+    Primeiro commit com todos os arquivos já existentes

@@ -1,0 +1,38 @@
+{
+    "name": "jeffersonvidal/testephp7",
+    "description": "Criando MiniFramework PHP com MVC",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Vidal",
+            "email": "vidalmoc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "^1.1.2",
+        "coffeecode/router": "^1.0",
+        "coffeecode/paginator": "^1.0",
+        "coffeecode/cropper": "^1.2",
+        "coffeecode/optimizer": "^2.0",
+        "coffeecode/uploader": "^1.0",
+        "fzaninotto/faker": "^1.9",
+        "league/oauth2-facebook": "^2.0",
+        "phpmailer/phpmailer": "^6.0.7",
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "league/plates": "v4.0.0-alpha",
+        "monolog/monolog": "^2.0",
+        "league/csv": "^9.3",
+        "dompdf/dompdf": "^0.8",
+        "matthiasmullie/minify": "^1.3"
+    }
+}
