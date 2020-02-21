@@ -4,7 +4,7 @@ Projeto de testes desenvolvido com base em tutoriais do Youtube e documentação
 
 ## Características do Projeto
 - [x] Conexão PDO (suporte a vários drivers [MySQL, Postgres, MariaDB]);
-- [x] CRUD (Usando DataLayer desenvolvido por Robson Leite);
+- [x] CRUD (Usando DataLayer CoffeCode);
 - [x] Rotas e MVC;
 - [x] Envio de email com PHPMailer;
 - [x] Paginação de resultados;
@@ -33,22 +33,10 @@ Projeto de testes desenvolvido com base em tutoriais do Youtube e documentação
 - [x] Oauth2-Facebook - https://packagist.org/packages/league/oauth2-facebook - Fazer login com Facebook;
 - [x] PHPMailer - https://packagist.org/packages/phpmailer/phpmailer - Enviar emails autenticados;
 - [x] Plates - https://packagist.org/packages/league/plates - Trabalhar com templates em MVC;
-- [x] ;
-- [x] ;
-- [x] ;
-- [x] ;
-- [x] ;
-- [x] ;
-- [x] ;
-- [x] ;
-- [x] ;
-- [] ;
-- [] ;
-- [] ;
-- [] ;
-- [] ;
-- [] ;
-- [] ;
-- [] ;
+- [x] Monolog - https://packagist.org/packages/monolog/monolog - Envio de logs;
+- [x] DomPDF - https://packagist.org/packages/dompdf/dompdf - Geração de PDF;
+- [x] Minify - https://packagist.org/packages/matthiasmullie/minify - Compactar CSS e JS;
 
+#### Observações sobre o projeto
 
+- * O projeto não funciona com PHP Built-in Server. Fiz a migração para WampServer devido a necessidade de trabalhar com *urls amigáveis* que *só funciona quando se trabalha com Apache, habilitando o módulo Rewriter* ;
