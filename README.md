@@ -40,3 +40,8 @@ Projeto de testes desenvolvido com base em tutoriais do Youtube e documentação
 #### Observações sobre o projeto
 
 - * O projeto não funciona com PHP Built-in Server. Fiz a migração para WampServer devido a necessidade de trabalhar com **urls amigáveis** que **só funciona quando se trabalha com Apache, habilitando o módulo Rewriter** ;
+
+
+---
+
+Made with ♥ by [Jefferson Vidal](https://github.com/jeffersonvidal)
